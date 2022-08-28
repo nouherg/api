@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
+  .text-center{
+    text-align: center;
+  }
+  .ListItems{
+    background: #fff;
+    color: #6d78c1;
+  }
+  .ListItems span{
+  
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+    border: 0.3px solid #ccc;
+  }
+  .ListItems span.title{
+    background: #6d78c1;
+    color: #fff;
+  }
+  
+  .ListItems span.name
+   {
+    width: 30%;
+  }
+  
+  .ListItems span.id
+   {
+    width: 5%;
+  }
+  .ListItems span.show
+   {
+    width: 5%;
+  }
+  .ListItems span.age{
+    width: 30%;
+  }
+  .ListItems span.action {
+    width: 30%;
+  }
+  .ListItems span.show{
+    color: #fff;
+    cursor: pointer;
+    background: rgb(200, 120, 120);
+  }
+  
+  
